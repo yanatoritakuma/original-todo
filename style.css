@@ -1,0 +1,78 @@
+.todoBox {
+  margin: 30px auto;
+  width: 960px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.inputTodoBox {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1dbdee;
+  width: 50%;
+  text-align: center;
+}
+
+button {
+  margin: 0 8px;
+  padding: 4px 10px;
+  background-color: #bebebe;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.inconpleteBox {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: sandybrown;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.inconpleteBox h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.inconpleteBox ul {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.listeBox {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conpleteBox {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f850b2;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.conpleteBox h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.conpleteBox ul {
+  margin: 0 auto;
+  width: 60%;
+}
